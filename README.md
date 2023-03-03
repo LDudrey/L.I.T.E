@@ -1,1 +1,1 @@
-# L.I.T.E
+# L.I.T.E (Lydia's Installable Text Editor)
