@@ -13,7 +13,6 @@ const initdb = async () =>
   });
 
 export const putDb = async (content) => {
-  console.error('putDb not implemented');
   console.log('PUT to the database');
   const jateDb = await openDB('jate', 1);
   const tx = jateDb.transaction('jate', 'readwrite');
@@ -24,7 +23,6 @@ export const putDb = async (content) => {
 };
 
 export const getDb = async () => {
-  console.error('getDb not implemented');
   console.log('GET all from the database');
   const jateDb = await openDB('jate', 1);
   const tx = jateDb.transaction('jate', 'readonly');
