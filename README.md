@@ -32,7 +32,8 @@ This application demonstrates a text editor PWA(Progressive Web Application) run
   https://lite-lad.herokuapp.com/
 
   You can visit the deployed application to and follow along with the walkthrough.
-
+  Open inspect in your browser and move to the Application tab. 
+  
   When you click off the text window the data will be saved in IndexedDb in local storage. 
   ![IndexedDb saved data](assets/images/indexeddb.jpg)
 
